@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    border: 1px solid;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ 
+header{
+    height: 5rem;
+    display: flex;
+   background: linear-gradient(90deg, rgb(63,41,57,1) 0%, rgb(42,61,68,1)59%);
+}
+ 
+.image{
+    width: 140px;
+    height: 100%;
+    display: flex;
+    margin-left: 10px;
+}
+ 
+img{
+    width: 100%;
+    height: 100%;
+}
+ 
+.barra{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+#nave{
+    background-color: #3c3c3e;
+    border: none;
+    width: 320px;
+    height: 2rem;
+    padding-left: 10px;
+    color: white;
+    border-radius: 30px 0px 0px 30px;
+}
+ 
+.lupa{
+    background-color: #3c3c3e;
+    width: 30px;
+    height: 2rem;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#set{
+    color: blue;
+}
+ 
+.ico{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4a72f5;
+    color: white;
+}
+ 
+.ulti{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+}
+ 
+.login{
+    border: 1px solid gray;
+    border-radius: 12px;
+    width: 80px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+ 
+.sing{
+    border: 1px solid gray;
+    border-radius: 12px;
+    width: 80px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(98.89deg, rgb(50,50, 253)0%, rgb(107, 176, 255) 100%);
+    color: white;
+}
+ 
+.users{
+    border: 1px solid gray;
+    border-radius: 12px;
+    width: 50px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.icono{
+    border: 1px solid;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    margin: 5px;
+}
+ 
+#fle{
+    color: white;
+}
+ 
+.contenedor{
+    height: 95vh;
+    display: flex;
+}
+ 
+aside{
+    background-color: #202024;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.uno{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.iconoo{
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: linear-gradient(98.89deg, rgb(50,50, 253)0%, rgb(107, 176, 255) 100%);
+    color: white;
+}
+ 
+ 
+ 
+.all{
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+ 
+.dos{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.iconoo2{
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    color: white;
+    background-color: #313135;
+}
+ 
+.all2{
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.addd{
+    color:  white;
+    font-size: 20px;
+}
+
+#mas{
+    color: blue;
+}
+ 
+.all3{
+    color: white;
+    width: 60px;
+}
+ 
+h2{
+    color: white;
+}
+ 
+.c2{
+    background-color: #202024;
+    width: 100%;
+    display: flex;
+}
+ 
+.c3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+ 
+.c20{
+ 
+    width: 40%;
+    background-color: #3c3c3e;
+    display: flex;
+    align-items: center;
+}
+ 
+.qui{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+ 
+.log{
+    border-top: 1px solid white;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+ 
+.likes{
+    border-top: 1px solid white;
+    width: 100%;
+    height: 3.1rem;
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+}
+ 
+.like{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.dislike{
+    border-left: 1px solid white;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.c11{
+    height: 65%;
+    display: flex;
+    gap: 10px;
+}
+ 
+article{
+    width: 45%;
+    border-radius: 20px;
+    background-color: #313135;
+    margin: 10px;
+}
+ 
+.wiki{
+    margin: 20px;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+}
+ 
+.textoo{
+    border-radius: 20px;
+    margin: 20px;
+    height: 80%;
+}
+ 
+.textoo>p{
+    font-size: 25px;
+}
+ 
+h1{
+    color: white;
+    font-size: 40px;
+}
+ 
+.equis{
+    width: 300px;
+    height: 200px
+}
+ 
+p{
+    color: white;
+    font-size: 30px;
+}
+ 
+h2{
+    color: white;
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+ 
+ 
+.c22{
+    width: 95%;
+    height: 20%;
+    border-radius: 12px;
+    background-image: url(/img/background.png );
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    border: 1px solid white;
+}
+ 
+.make{
+    color: white;
+    border-radius: 12px;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+ 
+#equii{
+    width: 30px;
+    font-size: 20px;
+}
+ 
+.enj{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    margin: 20px;
+}
+ 
+.larg{
+    color:white;
+    font-size: 17px;
+}
+ 
+h6{
+    color: white;
+    font-size: 20px;
+}
+ 
+.add{
+    border: 1px solid white;
+}
+ 
+.alo{
+    width: 28%;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: rgb(5, 98, 230);
+}
+ 
+.usdo{
+    width: 600px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 13px;
+}
+ 
+.usdo>img{
+    width: 25px;
+    height: 25px;
+}
+ 
+small{
+    color: white;
+    font-size: 12px;
+}
+ 
+#estre{
+    color: gold;
+}
+ 
+ 
+
